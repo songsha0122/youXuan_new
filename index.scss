@@ -290,9 +290,18 @@ header{
         a {
             display: block;
         }
+        perspective: -600px;
+        
         .left {
             display: flex;
             position: relative;
+            perspective: 800px;
+            a{
+                display:block;
+                width:370px;
+                height:320px;
+                overflow: hidden;
+               }
             img {
                 margin-right: 10px;
             }
@@ -308,8 +317,16 @@ header{
             }
         }
         .right {
+            perspective: 800px;
+            a{
+                display:block;
+                width:370px;
+                height:167px;
+                overflow: hidden;
+               }
             img {
                 margin-bottom: 10px;
+                
             }
             position: relative;
             .mask3 {
@@ -324,8 +341,9 @@ header{
             }
         }
         img:hover{
-            //transform-style: preserve-3d;
-            transform: scale(1.1,1);
+            
+           transform-style: preserve-3d; 
+            transform: translateZ(40px);
         }
     }
 }
@@ -548,6 +566,43 @@ header{
 #everybodyKnows{
     background:#f4f0ea;
     height:660px;
+    
+        .top{
+            display: flex;
+           h3 {
+            font: 700 26px/47px "";
+            color: #000000;
+        }
+            i {
+            padding-left: 10px;
+            font: 16px/34px"";
+            color: #000000;
+            margin-top: 12px;
+            } 
+        }
+        .bottom{
+            ul{
+                display: flex; 
+                height:495px;
+                overflow: hidden;
+                margin-top:20px;
+            }
+            li{
+               width:350px;
+               height:495px;
+               margin-left:10px; 
+               img{
+                   width:350px;
+                   height:350px;
+               }
+               p{
+                   background:#fff;
+//                 width:344px;
+//                 height:178px ;
+//                 margin-top:-44px;
+                   }
+            }
+        }
 }
 
 

@@ -237,7 +237,8 @@ header #nav li a:hover {
     background: url("../img/t6.png") no-repeat 715px 25px; }
 #produce .bottom {
   display: flex;
-  color: #666; }
+  color: #666;
+  perspective: -600px; }
   #produce .bottom h4 {
     font: 600 16px/43px ""; }
   #produce .bottom span {
@@ -251,7 +252,13 @@ header #nav li a:hover {
     display: block; }
   #produce .bottom .left {
     display: flex;
-    position: relative; }
+    position: relative;
+    perspective: 800px; }
+    #produce .bottom .left a {
+      display: block;
+      width: 370px;
+      height: 320px;
+      overflow: hidden; }
     #produce .bottom .left img {
       margin-right: 10px; }
     #produce .bottom .left .mask {
@@ -263,7 +270,13 @@ header #nav li a:hover {
       left: 507px;
       top: 90px; }
   #produce .bottom .right {
+    perspective: 800px;
     position: relative; }
+    #produce .bottom .right a {
+      display: block;
+      width: 370px;
+      height: 167px;
+      overflow: hidden; }
     #produce .bottom .right img {
       margin-bottom: 10px; }
     #produce .bottom .right .mask3 {
@@ -275,7 +288,8 @@ header #nav li a:hover {
       left: 47px;
       top: 207px; }
   #produce .bottom img:hover {
-    transform: scale(1.1, 1); }
+    transform-style: preserve-3d;
+    transform: translateZ(40px); }
 
 /*--------------------------newProduct------------------------*/
 #newProduct {
@@ -429,6 +443,30 @@ header #nav li a:hover {
 #everybodyKnows {
   background: #f4f0ea;
   height: 660px; }
+  #everybodyKnows .top {
+    display: flex; }
+    #everybodyKnows .top h3 {
+      font: 700 26px/47px "";
+      color: #000000; }
+    #everybodyKnows .top i {
+      padding-left: 10px;
+      font: 16px/34px "";
+      color: #000000;
+      margin-top: 12px; }
+  #everybodyKnows .bottom ul {
+    display: flex;
+    height: 495px;
+    overflow: hidden;
+    margin-top: 20px; }
+  #everybodyKnows .bottom li {
+    width: 350px;
+    height: 495px;
+    margin-left: 10px; }
+    #everybodyKnows .bottom li img {
+      width: 350px;
+      height: 350px; }
+    #everybodyKnows .bottom li p {
+      background: #fff; }
 
 /*--------------------------service------------------*/
 #service {
