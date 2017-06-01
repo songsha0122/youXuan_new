@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+	</head>
+
+	<body onload="kaishi()">
+		<!--/*-------------------header-----------------------*/-->
+		<header>
+			<div id="top" class="clear">
+				<div class="margin">
+					<p>好的生活，没那么贵</p>
+					<ul class="clear">
+						<li>
+							<a href="#">登录</a>
+						</li>
+						<li>
+							<a href="#">注册</a>
+						</li>
+						<span>|</span>
+						<li>严选态度</li>
+						<span>|</span>
+						<li>企业采购</li>
+						<span>|</span>
+						<li>客户服务</li>
+						<span>|</span>
+						<li>下载APP</li>
+					</ul>
+				</div>
+			</div>
+			<div class="margin">
+				<div id="title">
+					<a href="#">
+						<img src="http://yanxuan.nosdn.127.net/dbabd3aef45557e2df4512c0d3df53eb.gif?r=1496148358225" />
+					</a>
+					<input type="text" placeholder="慕斯同款乳胶床垫2折起" />
+					<input type="submit" value="" />
+					<div id="shoppingCart">
+						<img src="img/t4.png" />
+					</div>
+				</div>
+				<nav>
+					<ul id="nav">
+						<li><a href="#">首页</a></li>
+						<li><a href="#">居家</a></li>
+						<li><a>餐厨</a></li>
+						<li><a>配件</a></li>
+						<li><a>服装</a></li>
+						<li><a>洗护</a></li>
+						<li><a>婴童</a></li>
+						<li><a>杂货</a></li>
+						<li><a>饮食</a></li>
+						<li>
+							<a>志趣</a>
+							<img src="img/t5.png" />
+						</li>
+						<li><a>专题</a></li>
+						<li><a>甄选家</a></li>
+					</ul>
+
+				</nav>
+			</div>
+		</header>
+		<!--/*-------------------banner-----------------------*/-->
+		<section id="banner">
+			<img id="banner1" src="img/banner.jpg" onmouseover="dingzhu1()" onmouseout="kaishi()"/>
+			<input type="button" id="btn1"  onmouseover="dingzhu1()" onclick="toLeft()" onmouseout="kaishi()"/>
+			<input type="button" id="btn2" onmouseover="dingzhu1()" onclick="torRight()" onmouseout="kaishi()"/>
+			<ul>
+				<li onmouseover="dingzhu(0)" onmouseout="kaishi()" class="banner-li"></li>
+				<li onmouseover="dingzhu(1)" onmouseout="kaishi()" class="banner-li"></li>
+				<li onmouseover="dingzhu(2)" onmouseout="kaishi()" class="banner-li"></li>
+				<li onmouseover="dingzhu(3)" onmouseout="kaishi()" class="banner-li"></li>
+			</ul>
+		</section>
+		<script src="js/jquery.js"></script>
+		<script src="js/banner.js"></script>
+		<!--/*--------------------------produce------------------------*/-->
+		<section id="produce">
+			<div class="margin">
+				<div class="top">
+					<h3>品牌制造商</h3>
+					<i>工厂直达消费者，剔除品牌溢价</i>
+					<a href="#">更多制造商</a>
+				</div>
+				<div class="bottom">
+					<div class="left">
+						<a href="#" class="mu"><img src="img/produce (4).jpg" /></a>
+						<div class="mask">
+							<h4>MIJI制造商</h4>
+							<span>12.9元起</span>
+						</div>
+						<a href="#" class="mu"><img src="img/produce (2).jpg" /></a>
+						<div class="mask2">
+							<h4>Coach制造商</h4>
+							<span>49元起</span>
+						</div>
+					</div>
+					<div class="right">
+						<a href="#" class="ck"><img src="img/produce (1).jpg" /></a>
+						<div class="mask3">
+							<h4>CK制造商</h4>
+							<span>36元起</span>
+						</div>
+						<a href="#" class="ck"><img src="img/produce (3).jpg" /></a>
+						<div class="mask4">
+							<h4>MF制造商</h4>
+							<span>9.9元起</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</section>
+		<!--/*--------------------------newProduct------------------------*/-->
+		<section id="newProduct" class="margin">
+			<div class="top">
+				<h3>新品首发</h3>
+				<i>周一周四上新，为你寻觅世间好物</i>
+				<a href="#">更多新品</a>
+			</div>
+			<div class="bottom">
+				<img src="img/t7.png" class="btn1" />
+				<img src="img/t8.png" class="btn2" />
+				<ul>
+					<li>
+						<a href="#" class="li1">
+							<img src="img/newProduct (1).png" class="showing show1" />
+							<img src="img/newProduct(1)-1.png" class="hidden1" />
+							<span>小龙虾4-6钱/只 净虾850克</span>
+							<i>￥75</i>
+						</a>
+					</li>
+
+					<li>
+						<a href="#" class="li2">
+							<img src="img/newProduct (4).png" class="showing show2" />
+							<img src="img/newProduct(3)-1.png" class="hidden2" />
+							<span>全身按摩仪</span>
+							<i>￥475</i>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="li3">
+							<img src="img/newProduct (2).png" class="showing show3" />
+							<img src="img/newProduct(4)-1.png" class="hidden3" />
+							<span>经典运动鞋</span>
+							<i>￥175</i>
+						</a>
+					</li>
+					<li>
+						<a href="#" class="li4">
+							<img src="img/newProduct (3).png" class="showing show4" />
+							<img src="img/newProduct(2)-1.png" class="hidden4" />
+							<span>空蓝经典飞行员墨镜</span>
+							<i>￥275</i>
+						</a>
+					</li>
+
+				</ul>
+
+			</div>
+
+		</section>
+		<!--/*--------------------------recommend--人气推荐----------------------*/-->
+		<script type="text/javascript" >
+		
+		</script>
+		<section id="recommend">
+			<div class="margin ">
+				<div class="top">
+					<h3>人气推荐</h3>
+					
+					<a href="#">更多推荐</a>
+				</div>
+				<div id="recommend-b">
+					<ul>
+						<li class="select select1">编辑推荐</li>
+						<li class="select1">人气周榜</li>
+						<li class="select1">热销总榜</li>
+					</ul>
+					<div id="editorsRecommend" class="select select2">编辑推荐</div>
+					<div id="popularRecommend" class="select2">人气周榜</div>
+					<div id="hotRecommend" class="select2">热销总榜</div>
+				</div>
+				
+			</div>
+		</section>
+		
+		
+		
+		
+		
+		<!--/*--------------------------everybodyKnows--大家都在说----------------*/-->
+		<section id="everybodyKnows">
+			<div class="margin">
+
+			</div>
+		</section>
+
+
+
+
+
+
+
+		<!--/*--------------------------service------------------*/-->
+		<section id="service">
+			<div class="margin">
+				<div class="left">
+					<h4>客服电话</h4>
+					<span>400-0368-163</span>
+					<i>9:00-22:00</i>
+					<a href="#">用户反馈</a>
+					<a href="#">在线客服</a>
+				</div>
+				<div class="center">
+					<h4>何为严选</h4>
+					<p>网易原创生活类电商品牌，秉承网易一贯的严谨态度，我们深入世界各地，从源头全程严格把控商品生产环节，力求帮消费者甄选到优质的商品</p>
+					<span>关注我们：</span>
+					<a href="#">
+						<img src="img/t13.png" />
+					</a>
+					<a href="#">
+						<img src="img/t14.png" />
+					</a>
+					<a href="#">
+						<img src="img/t15.png" />
+					</a>
+				</div>
+				<div class="right">
+					<h4>扫码下载严选APP</h4>
+					<a href="#">
+						<img src="img/t16.png" />
+					</a>
+					<span>下载领1000元新人礼包</span>
+				</div>
+
+			</div>
+		</section>
+
+		<!--/*--------------------------footer------------------*/-->
+		<footer>
+
+			<div class="top">
+				<div class="margin">
+					<ul>
+						<li>
+							<img src="img/t9.png" />
+							<span>30天无忧退货</span>
+						</li>
+						<li>
+							<img src="img/t10.png" />
+							<span>满88元免邮费</span>
+						</li>
+						<li>
+							<img src="img/t11.png" />
+							<span>网易品质保证</span>
+						</li>
+					</ul>
+				</div>
+
+			</div>
+			<div class="bottom">
+				<a href="#">关于我们</a>
+				<span>|</span>
+				<a href="#">帮助中心</a>
+				<span>|</span>
+				<a href="#">售后服务</a>
+				<span>|</span>
+				<a href="#">配送与验收</a>
+				<span>|</span>
+				<a href="#">商务合作</a>
+				<span>|</span>
+				<a href="#">企业采购</a>
+				<span>|</span>
+				<a href="#">友情链接</a>
+
+				<p>
+					网易公司版权所有& copy 1997-2017 食品经营许可证：JY13301080111719</p>
+			</div>
+
+		</footer>
+	</body>
+
+</html>
