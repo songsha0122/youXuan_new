@@ -236,7 +236,7 @@ header {
 
 header {
     position: relative;
-    nav {
+    
         div.subnav {
             display: none;
             ul {
@@ -255,28 +255,29 @@ header {
                 color: #000;
             }
         }
-        //      div.subnavSelect{
-        //          display:block;
-        //          position:absolute;
-        //          z-index: 60;
-        //          background:#fff;
-        //          ul {
-        //              width: 1070px;
-        //              height: 234px;
-        //              margin: 20px 0 0 37px;
-        //          }
-        //          li {
-        //              float: left;
-        //              margin: 0 107px 20px 0;
-        //          }
-        //          span {
-        //              display: block;
-        //              text-align: center;
-        //              font: 600 14px/20px "";
-        //              color: #000;
-        //          }
-        //      }
-    }
+                div.subnavSelect{
+            display: block;
+            position: absolute;
+            z-index: 90;
+            background:#fff;
+            
+            ul {
+                width: 1070px;
+                height: 234px;
+                margin: 20px auto;
+            }
+            li {
+                float: left;
+                margin: 0 107px 20px 0;
+            }
+            span {
+                display: block;
+                text-align: center;
+                font: 600 14px/20px "";
+                color: #000;
+            }
+        }
+    
 }
 
 //header{
@@ -299,14 +300,14 @@ header {
         background: url("../img/t17.png") no-repeat 8px 9px;
         position: absolute;
         top: 130px;
-        left: 70px;
+        left: 15%;
         z-index: 50;
     }
     #btn2 {
         background: url("../img/t18.png") no-repeat 11px 9px;
         position: absolute;
         top: 130px;
-        left: 1135px;
+        left: 85%;
         z-index: 50;
     }
     img {
@@ -317,8 +318,8 @@ header {
     }
     ul {
         position: absolute;
-        top: 307px;
-        left: 550px;
+        top: 85%;
+        left: 45%;
     }
     li {
         float: left;
@@ -380,14 +381,15 @@ header {
             perspective: 800px;
             a {
                 display: block;
-                width: 370px;
+                width: 357px;
                 height: 320px;
                 overflow: hidden;
+                margin-right: 10px;
             }
             img {
                 width: 357px;
                 height: 320px;
-                margin-right: 10px;
+                
             }
             .mask {
                 position: absolute;
@@ -404,14 +406,15 @@ header {
             perspective: 800px;
             a {
                 display: block;
-                width: 370px;
-                height: 167px;
+                width: 357px;
+                height: 155px;
                 overflow: hidden;
+                margin-bottom: 10px;
             }
             img {
                 width: 357px;
                 height: 155px;
-                margin-bottom: 10px;
+                
             }
             position: relative;
             .mask3 {
@@ -455,26 +458,36 @@ header {
         }
     }
     .bottom {
-        height: 300px;
+        height: 342px;
+        position:relative;
+        width:1290px;
+        .bottom-img{
+            width:1090px;
+            overflow: hidden;
+            //margin:0 auto;
+            height:100%;
+            
+        }
         .newProduct-btn1 {
-            //position:absolute; 
-            //            top:100px;
-            //            left:-10px;
-            margin: 100px 0 0 -40px;
+            position:absolute; 
+              top:140px;
+               left:-100px;
+           // margin: 100px 0 0 -40px;
             z-index: 100;
         }
         .newProduct-btn2 {
-            //position:absolute;  
-            //            top:100px;
-            //            right:-10px;
-            margin: 100px 0 0 1015px;
+              position:absolute;  
+                          top:140px;
+                          right:100px;
+            //margin: 100px 0 0 1015px;
             z-index: 100;
         }
         ul.newProduct-ul {
-            margin-top: -190px;
+            
             height: 340px;
             width: 3270px;
             overflow: hidden;
+            margin-left: -1030px;
             .newProduct-ul {
                 float: left;
                 width: 1090px;

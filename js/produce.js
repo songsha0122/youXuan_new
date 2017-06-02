@@ -24,11 +24,13 @@
 //	});
 $(".newProduct-btn1").click(function(){
 	var n=parseInt($(".newProduct-ul").css("marginLeft"));
-	var m=1090;
-	if(n==0){
+	var m=1030;//步长
+	//console.info(n);
+	if(n==-2060){
 		m=0;
 	}
-	var num=parseInt(n+m);
+	
+	var num=parseInt(n-m);
 	$(".newProduct-ul").animate(
 		{
 			marginLeft:num
@@ -37,8 +39,8 @@ $(".newProduct-btn1").click(function(){
 })
 $(".newProduct-btn2").click(function(){
 	var n=parseInt($(".newProduct-ul").css("marginLeft"));
-	var m=1090;
-	if(n==-2180){
+	var m=1030;
+	if(n==0){
 		m=0;
 	}
 	var num=parseInt(n+m);
