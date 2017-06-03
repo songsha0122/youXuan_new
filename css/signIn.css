@@ -1,0 +1,169 @@
+@charset "UTF-8";
+/* CSS Document */
+body,
+ol,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+th,
+td,
+dl,
+dd,
+form,
+fieldset,
+legend,
+input,
+textarea,
+select,
+td {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font: 12px "宋体";
+  word-wrap: break-word; }
+
+a,
+u,
+s,
+del {
+  color: #666;
+  text-decoration: none; }
+
+fieldset,
+a img,
+.bor0 {
+  border: 0; }
+
+i,
+em,
+b {
+  font-style: normal;
+  font-weight: 100; }
+
+li {
+  list-style: none; }
+
+img {
+  vertical-align: middle; }
+
+table {
+  border-collapse: collapse; }
+
+/*细线边框*/
+.ind2 {
+  text-indent: 2em; }
+
+/*溢出隐藏出现省略号*/
+.over {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+/*让图片垂直对齐方式*/
+.valign {
+  text-align: center; }
+
+.valign:after {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 100%;
+  vertical-align: middle; }
+
+/*给valign添加个子元素对齐图片*/
+.valign img {
+  vertical-align: middle; }
+
+/*万能清除浮动法*/
+.clear {
+  zoom: 1; }
+
+.clear:after {
+  content: "";
+  clear: both;
+  display: block; }
+
+body {
+  width: 100%;
+  height: 100%;
+  background: #efefef; }
+
+.margin {
+  width: 1000px;
+  margin: 0 auto; }
+
+/*-------------------header-----------------------*/
+header {
+  width: 100%;
+  height: 129px; }
+  header .margin {
+    margin-top: 43px; }
+  header span {
+    font: 18px/28px "";
+    color: #666666;
+    margin-left: 673px; }
+  header #login {
+    font: 18px/28px "";
+    color: #ca5252; }
+
+#main {
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+  background: #fff;
+  border: 1px solid #efefef;
+  box-shadow: 0 0 10px 0 #999; }
+  #main h3 {
+    font: 24px/74px "";
+    color: #ca5252;
+    margin: 70px 0 20px 70px; }
+  #main form {
+    text-align: center;
+    margin-left: 93px; }
+    #main form div {
+      margin-left: 18%; }
+      #main form div span {
+        display: block;
+        float: left;
+        width: 126px;
+        font: 18px/44px ""; }
+      #main form div input {
+        height: 46px;
+        width: 320px;
+        margin-bottom: 26px;
+        float: left;
+        padding: 0 10px; }
+      #main form div #submit {
+        margin-left: 17%;
+        height: 46px;
+        width: 323px; }
+      #main form div #btn {
+        width: 120px;
+        height: 46px;
+        margin-left: 50px; }
+  #main #bottom {
+    width: 900px;
+    height: 100px;
+    margin: 65px auto 137px;
+    background: #2d81d4; }
+
+footer {
+  width: 100%;
+  height: 80px; }
+  footer p {
+    font: 12px/26px "";
+    color: #b1b1b1;
+    text-align: center; }
+  footer #friendLink {
+    margin-top: 17px; }
+  footer a {
+    font: 12px/26px "";
+    color: #b1b1b1; }
+
+/*# sourceMappingURL=signIn.css.map */
