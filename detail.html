@@ -1,16 +1,13 @@
 <!DOCTYPE html>
 <html>
-
 	<head>
-		<meta charset="utf-8" />
+		<meta charset="UTF-8">
 		<title></title>
-
-		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/detail.css" />
 	</head>
-
-	<body onload="kaishi()">
+	<body>
 		<!--/*-------------------header-----------------------*/-->
-		<header>
+			<header>
 			<div id="top" class="clear">
 				<div class="margin">
 					<p>好的生活，没那么贵</p>
@@ -592,65 +589,103 @@
 						</ul>
 					</div>
 		</header>
+			
+		
+		<!--/*-------------------show-----------------------*/-->
+			<section id="show" class="margin">
 				
-		<!--/*-------------------banner-----------------------*/-->
-		<section id="banner">
-			<img id="banner1" src="img/banner.jpg" onmouseover="dingzhu1()" onmouseout="kaishi()" />
-			<input type="button" id="btn1" onmouseover="dingzhu1()" onclick="toLeft()" onmouseout="kaishi()" />
-			<input type="button" id="btn2" onmouseover="dingzhu1()" onclick="torRight()" onmouseout="kaishi()" />
-			<ul>
-				<li onmouseover="dingzhu(0)" onmouseout="kaishi()" class="banner-li"></li>
-				<li onmouseover="dingzhu(1)" onmouseout="kaishi()" class="banner-li"></li>
-				<li onmouseover="dingzhu(2)" onmouseout="kaishi()" class="banner-li"></li>
-				<li onmouseover="dingzhu(3)" onmouseout="kaishi()" class="banner-li"></li>
-			</ul>
-		</section>
-
-		<!--/*--------------------------produce------------------------*/-->
-		<section id="produce">
-			<div class="margin">
-				<div class="top">
-					<h3>品牌制造商</h3>
-					<i>工厂直达消费者，剔除品牌溢价</i>
-					<a href="#">更多制造商</a>
+			<!--<div class="show-top">
+					<a href="#">首页</a>
+					<span>&gt</span>
+					<a href="#">居家</a>
+					<span>&gt</span>
+					<a href="#">夏凉</a>
+					<span>&gt</span>
+					<b>纯棉水洗色织格夏凉被</b>
 				</div>
+				
+				<div class="show-bottom">
+					<div class="show-left">
+						<div class="bigBox">
+							<img src="img/detail1.png" class="showBigImg"  />
+							<img src="img/detail2.jpg" />
+							<img src="img/detail3.jpg" />
+							<img src="img/detail4.jpg" />
+							<img src="img/detail5.jpg" />
+							
+						</div>
+						<ul class="bigUl">
+							<li><img src="img/detail6.png"/></li>
+							<li><img src="img/detail6.png"/></li>
+							<li><img src="img/detail7.png"/></li>
+							<li><img src="img/detail7.png"/></li>
+						</ul>
+						<div class="smallBox">
+							<ul>
+								<li  class="showSmallImg"><img src="img/detail1-1.png"/></li>
+								<li><img src="img/detail2-2.jpg"/></li>
+								<li><img src="img/detail3-3.jpg"/></li>
+								<li><img src="img/detail4-4.jpg"/></li>
+								<li><img src="img/detail5-5.jpg"/></li>								
+							</ul>
+						</div>
+					</div>
+					<div class="show-right">
+						<h3>纯棉水洗色织夏凉被</h3>
+						<s>100%棉填充，透气排汗，双面可用</s>
+						<div class="price clear">
+							<ul>
+								<li>
+									<i>售价</i>
+									<span>￥169.00</span>
+								</li>
+								<li>
+									<i>促销</i>
+									<a href="#"  class="aTe">毕业季</a>
+									<a href="#">8款特价组合折上折，先领全场优惠券</a>
+								</li>
+								<li>
+									<i>服务</i>
+						
+									<a href="#">.30天无忧退货. 48小时快速退款 .满88元免邮费. 网易自营品牌</a>
+								</li>
+							</ul>
+						</div>
+						<div class="select clear">
+							<s>规格颜色</s>
+							<ul class="smallUl">
+								<li class="showSmallLi"><img src="img/detail6-6.png" /></li>
+								<li><img src="img/detail6-6.png"/></li>
+								<li><img src="img/detail7-7.png"/></li>
+								<li><img src="img/detail7-7.png"/></li>
+							</ul>
+						</div>
+						
+						<div class="num">
+							<s>数量</s>
+							<input type="button" id="cut"  value="-"/>
+							<input type="text" id="txt"/>
+							<input type="button" id="add"  value="+"/>
+						</div>
+						
+						<div class="jiesuan">
+							<input type="submit" id="buy" value="立即购买" />
+							<input type="submit" id="increase" value="加入购物车" />
+							<span id="shoucang"> 收藏</span>
+						</div>
+						
+					</div>
+				</div>
+				-->
+				
+			</section>			
+						
+						
+		<!--/*-------------------look-----------------------*/-->				
+						
+			<section id="look" class="margin">
+				<h3>大家都在看</h3>
 				<div class="bottom">
-					<div class="left">
-						<a href="#" class="mu"><img src="img/produce (4).jpg" /></a>
-						<div class="mask">
-							<h4>MIJI制造商</h4>
-							<span>12.9元起</span>
-						</div>
-						<a href="#" class="mu"><img src="img/produce (2).jpg" /></a>
-						<div class="mask2">
-							<h4>Coach制造商</h4>
-							<span>49元起</span>
-						</div>
-					</div>
-					<div class="right">
-						<a href="#" class="ck"><img src="img/produce (1).jpg" /></a>
-						<div class="mask3">
-							<h4>CK制造商</h4>
-							<span>36元起</span>
-						</div>
-						<a href="#" class="ck"><img src="img/produce (3).jpg" /></a>
-						<div class="mask4">
-							<h4>MF制造商</h4>
-							<span>9.9元起</span>
-						</div>
-					</div>
-				</div>
-			</div>
-
-		</section>
-		<!--/*--------------------------newProduct------------------------*/-->
-		<section id="newProduct" class="margin">
-			<div class="top">
-				<h3>新品首发</h3>
-				<i>周一周四上新，为你寻觅世间好物</i>
-				<a href="#">更多新品</a>
-			</div>
-			<div class="bottom">
 				<img src="img/t7.png" class="newProduct-btn1" />
 				<img src="img/t8.png" class="newProduct-btn2" />
 				<div class="bottom-img">
@@ -764,323 +799,128 @@
 
 				</div>
 			</div>
-
-		</section>
-		<!--/*--------------------------recommend--人气推荐----------------------*/-->
-
-		<section id="recommend">
-			<div class="margin ">
-				<div class="top">
-					<h3>人气推荐</h3>
-
-					<a href="#">更多推荐</a>
+				
+				
+			</section>		
+			
+		
+			
+			
+		<!--/*--------------------------introduce------------------*/-->	
+			<section id="introduce" class="margin clear">
+				<div class="left">
+					<p class="title2">
+						<span class="showSelect">详情</span>
+						<span>评价</span>
+						
+					</p>
+					<div class="hide showSelect" id="showDetail">
+						<div class="showDetail-t">
+						<h4 class="h4-fir">
+							<span>面料</span><i>100%棉</i> 
+							<b>填充物</b><i>100%棉</i>
+						</h4>
+						<h4 class="h4-sec">
+							<span>执行标准</span><i>GB/T22796-2009</i> 
+							<b>安全技术类别</b><i>GB18401-2010 A类</i>
+						</h4>
+						<h4 class="h4-thr">
+							<span>规格</span><i>GB/T22796-2009</i> 
+							
+						</h4>
+						<img src="img/xiangqing1.jpg"/>
+					</div>
+						
+						
+						
+						
+					</div>
+					<div id="pingjia" class="hide">
+						
+					</div>
+					
 				</div>
-				<div id="recommend-b">
-					<ul class="ulTop">
-						<li class="select select1">编辑推荐</li>
-						<li class="select1">人气周榜</li>
-						<li class="select1">热销总榜</li>
+				
+				<div class="right">
+					<div class="right-t">
+					<h3>24小时热卖</h3>
+					<ul>
+						<li>
+							<a href="#"><img src="img/detail-24-1.png"/></a>
+							<span class="over">新疆阿瓦提长绒棉弱捻毛巾</span>
+							<i>￥19.9</i>						
+						</li>
+						<li>
+							<a href="#"><img src="img/detail-24-1.png"/></a>
+							<span class="over">新疆阿瓦提长绒棉弱捻毛巾</span>
+							<i>￥19.9</i>						
+						</li>
+						<li>
+							<a href="#"><img src="img/detail-24-1.png"/></a>
+							<span class="over">新疆阿瓦提长绒棉弱捻毛巾</span>
+							<i>￥19.9</i>						
+						</li>
+						<li>
+							<a href="#"><img src="img/detail-24-1.png"/></a>
+							<span class="over">新疆阿瓦提长绒棉弱捻毛巾</span>
+							<i>￥19.9</i>						
+						</li>
+						<li>
+							<a href="#"><img src="img/detail-24-1.png"/></a>
+							<span class="over">新疆阿瓦提长绒棉弱捻毛巾</span>
+							<i>￥19.9</i>						
+						</li>
+						<li>
+							<a href="#"><img src="img/detail-24-1.png"/></a>
+							<span class="over">新疆阿瓦提长绒棉弱捻毛巾</span>
+							<i>￥19.9</i>						
+						</li>
+						<li>
+							<a href="#"><img src="img/detail-24-1.png"/></a>
+							<span class="over">新疆阿瓦提长绒棉弱捻毛巾</span>
+							<i class="iTe">￥19.9</i>						
+						</li>
+						
+						
+						
 					</ul>
-					<div id="editorsRecommend" class="select select1">
-						<div class="left clear">
-							<a href="#">
-								<img src="img/editorsRecommend1.png" />
-								<span>男士休闲鞋</span>
-								<i>￥199</i>
-							</a>
-						</div>
-						<div class="right clear">
-							<ul class="ulBottom">
-								<li>
-									<a>
-										<img src="img/editorsRecommend2.png" />
-										<span>AB面独立弹簧床垫 进口乳胶</span>
-										<i>￥2500</i>
-									</a>
-								</li>
-
-								<li>
-									<a>
-										<img src="img/editorsRecommend3.png" />
-										<span>日式和风声波士电动牙刷</span>
-										<i>￥129</i>
-									</a>
-								</li>
-								<li>
-									<a>
-										<img src="img/editorsRecommend4.png" />
-										<span>破壁料理机</span>
-										<i>￥199</i>
-									</a>
-								</li>
-								<li>
-									<a>
-										<img src="img/editorsRecommend5.png" />
-										<span>新疆阿瓦提长绒棉弱捻超柔毛巾</span>
-										<i>￥12</i>
-									</a>
-								</li>
-								<li>
-									<a>
-										<img src="img/editorsRecommend6.png" />
-										<span>日式蓬软太鼓抱枕</span>
-										<i>￥29</i>
-									</a>
-								</li>
-								<li>
-									<a>
-										<img src="img/editorsRecommend7.png" />
-										<span>黑凤梨 玩趣彩虹四季拖鞋</span>
-										<i>￥19.9</i>
-									</a>
-								</li>
-							</ul>
-
-						</div>
-					</div>
-					<div id="popularRecommend" class="select1">
-						<div class="left clear">
-							<a href="#">
-								<img src="img/popularRecommend1.png" />
-								<span>迷彩清护牙膏</span>
-								<i>￥19.9</i>
-							</a>
-						</div>
-						<div class="right clear">
-							<ul class="ulBottom">
-								<li>
-									<a>
-										<img src="img/popularRecommend2.png" />
-										<span>日式和风声波士电动牙刷</span>
-										<i>￥129</i>
-									</a>
-								</li>
-
-								<li>
-									<a>
-										<img src="img/popularRecommend3.png" />
-										<span>便携保鲜盒</span>
-										<i>￥29.9</i>
-									</a>
-								</li>
-								<li>
-									<a>
-										<img src="img/popularRecommend4.png" />
-										<span>头层牛皮席三件套</span>
-										<i>￥122</i>
-									</a>
-								</li>
-								<li>
-									<a>
-										<img src="img/popularRecommend5.png" />
-										<span>纯PC登机框</span>
-										<i>￥299</i>
-									</a>
-								</li>
-								<li>
-									<a>
-										<img src="img/popularRecommend6.png" />
-										<span>纯棉水洗夏凉被</span>
-										<i>￥99</i>
-									</a>
-								</li>
-								<li>
-									<a>
-										<img src="img/popularRecommend7.png" />
-										<span>进口长绒毛巾</span>
-										<i>￥39</i>
-									</a>
-								</li>
-							</ul>
-
-						</div>
-					</div>
-					<div id="hotRecommend" class="select1">
-						<div class="left clear">
-							<a href="#">
-								<img src="img/hotRecommend1.png" />
-								<span>轻简休闲拖鞋</span>
-								<i>￥19</i>
-							</a>
-						</div>
-						<div class="right clear">
-							<ul class="ulBottom">
-								<li>
-									<a>
-										<img src="img/hotRecommend2.png" />
-										<span>超柔兰裤袜</span>
-										<i>￥25</i>
-									</a>
-								</li>
-
-								<li>
-									<a>
-										<img src="img/hotRecommend3.png" />
-										<span>古风一木 手帕纸</span>
-										<i>￥5.9</i>
-									</a>
-								</li>
-								<li>
-									<a>
-										<img src="img/hotRecommend4.png" />
-										<span>速干防滑沐浴拖鞋</span>
-										<i>￥199</i>
-									</a>
-								</li>
-								<li>
-									<a>
-										<img src="img/hotRecommend5.png" />
-										<span>简约陶瓷马克杯</span>
-										<i>￥12</i>
-									</a>
-								</li>
-								<li>
-									<a>
-										<img src="img/hotRecommend6.png" />
-										<span>古风一木 小卷纸</span>
-										<i>￥29</i>
-									</a>
-								</li>
-								<li>
-									<a>
-										<img src="img/hotRecommend7.png" />
-										<span>男士基础平角裤</span>
-										<i>￥19.9</i>
-									</a>
-								</li>
-							</ul>
-
-						</div>
-					</div>
+					
 				</div>
-
-			</div>
-		</section>
-
-		<!--/*--------------------------everybodyKnows--大家都在说----------------*/-->
-		<section id="everybodyKnows">
-			<div class="margin">
-				<div class="top">
-					<h3>大家都在说</h3>
-					<i>生活，没有统一的标准</i>
-				</div>
-				<div class="bottom">
-					<ul id="showbox">
-						<li class="bottom-li">
-							<img src="img/e1.jpg" />
-							<div>
-								<span>a***b 2017-5-31 18:10</span>
-								<i><h4 class="over">日本制造 守望之秋餐具</h4><b>￥19</b></i>
-								<p>碟子上面是类似磨砂的质感，很方便刷洗，最重要的是有厚重感， 吃饭的时候里面不沾碗">碟子上面是类似磨砂的质感，很方便刷洗， 最重要的是有厚重感，吃饭的时候里面不沾碗
-								</p>
-							</div>
-
+					<div class="right-b">
+					<h3>专题推荐</h3>
+					<ul>
+						<li>
+							<a href="#"><img src="img/detail24-2.jpg"/></a>
+							<p>经常断货的他们终于又上架了</p>						
 						</li>
-						<li class="bottom-li">
-							<img src="img/e2.jpg" />
-							<div>
-								<span>>梁****泊 2017-5-31 18:10</span>
-								<i><h4 class="over">男式超细莫代尔无痕背心</h4><b>￥19</b></i>
-								<p>细心的包装，上乘的质量，很不错的性价比，以后有需要还来。</p>
-							</div>
-
+						<li>
+							<a href="#"><img src="img/detail24-2.jpg"/></a>
+							<p>经常断货的他们终于又上架了</p>						
 						</li>
-						<li class="bottom-li">
-							<img src="img/e3.jpg" />
-							<div>
-								<span>>梁****泊 2017-5-31 18:10</span>
-								<i><h4 class="over">清心冰感浅口隐形夏季女袜</h4><b>￥19</b></i>
-								<p>这个袜子真心赞，质量没话说，很跟脚，喜欢的不得了， 已经二次购买并推荐了好友购买了。
-								</p>
-							</div>
-
+						<li>
+							<a href="#"><img src="img/detail24-2.jpg"/></a>
+							<p>经常断货的他们终于又上架了</p>						
 						</li>
-						<li class="bottom-li">
-							<img src="img/e4.jpg" />
-							<div>
-								<span>>梁****泊 2017-5-31 18:10</span>
-								<i><h4 class="over">日式多功能颈枕 针织款<b>￥19</b></h4></i>
-								<p>对于买家来说：店主态度很好，发货速度很快， 而且我买的产品质量好好哦，比图片上的更漂亮，哈， 竟然能买到物美价廉的东西，下次我还会光顾的哦。买会感到惊喜、 下次还会来的。哈哈，谢谢店家
-								</p>
-							</div>
-
+						<li>
+							<a href="#"><img src="img/detail24-2.jpg"/></a>
+							<p>经常断货的他们终于又上架了</p>						
 						</li>
-						<li class="bottom-li">
-							<img src="img/e5.jpg" />
-							<div>
-								<span>>梁****泊 2017-5-31 18:10</span>
-								<i><h4 class="over">日本制造 美浓烧幽玄系列千岁绿</h4><b>￥19</b></i>
-								<p>对于买家来说：店主态度很好，发货速度很快， 而且我买的产品质量好好哦，比图片上的更漂亮，哈， 竟然能买到物美价廉的东西，下次我还会光顾的哦。买会感到惊喜、 下次还会来的。哈哈，谢谢店家
-								</p>
-							</div>
-
+						<li>
+							<a href="#"><img src="img/detail24-2.jpg"/></a>
+							<p>经常断货的他们终于又上架了</p>						
 						</li>
-						<li class="bottom-li">
-							<img src="img/e6.jpg" />
-							<div>
-								<span>>梁****泊 2017-5-31 18:10</span>
-								<i><h4 class="over">黑凤梨 女生零食礼盒</h4><b>￥19</b></i>
-								<p>对于买家来说：店主态度很好，发货速度很快， 而且我买的产品质量好好哦，比图片上的更漂亮，哈， 竟然能买到物美价廉的东西，下次我还会光顾的哦。买会感到惊喜、 下次还会来的。哈哈，谢谢店家
-								</p>
-							</div>
-
-						</li>
-						<li class="bottom-li">
-							<img src="img/e1.jpg" />
-							<div>
-								<span>a***b 2017-5-31 18:10</span>
-								<i><h4 class="over">日本制造 守望之秋餐具</h4><b>￥19</b></i>
-								<p>碟子上面是类似磨砂的质感，很方便刷洗，最重要的是有厚重感， 吃饭的时候里面不沾碗">碟子上面是类似磨砂的质感，很方便刷洗， 最重要的是有厚重感，吃饭的时候里面不沾碗
-								</p>
-							</div>
-
-						</li>
-						<li class="bottom-li">
-							<img src="img/e2.jpg" />
-							<div>
-								<span>>梁****泊 2017-5-31 18:10</span>
-								<i><h4 class="over">男式超细莫代尔无痕背心</h4><b>￥19</b></i>
-								<p>细心的包装，上乘的质量，很不错的性价比，以后有需要还来。</p>
-							</div>
-
-						</li>
-						<li class="bottom-li">
-							<img src="img/e3.jpg" />
-							<div>
-								<span>>梁****泊 2017-5-31 18:10</span>
-								<i><h4 class="over">清心冰感浅口隐形夏季女袜</h4><b>￥19</b></i>
-								<p>这个袜子真心赞，质量没话说，很跟脚，喜欢的不得了， 已经二次购买并推荐了好友购买了。
-								</p>
-							</div>
-
-						</li>
-						<li class="bottom-li">
-							<img src="img/e4.jpg" />
-							<div>
-								<span>>梁****泊 2017-5-31 18:10</span>
-								<i><h4 class="over">日式多功能颈枕 针织款<b>￥19</b></h4></i>
-								<p>对于买家来说：店主态度很好，发货速度很快， 而且我买的产品质量好好哦，比图片上的更漂亮，哈， 竟然能买到物美价廉的东西，下次我还会光顾的哦。买会感到惊喜、 下次还会来的。哈哈，谢谢店家
-								</p>
-							</div>
-
-						</li>
-						<li class="bottom-li">
-							<img src="img/e5.jpg" />
-							<div>
-								<span>>梁****泊 2017-5-31 18:10</span>
-								<i><h4 class="over">日本制造 美浓烧幽玄系列千岁绿</h4><b>￥19</b></i>
-								<p>对于买家来说：店主态度很好，发货速度很快， 而且我买的产品质量好好哦，比图片上的更漂亮，哈， 竟然能买到物美价廉的东西，下次我还会光顾的哦。买会感到惊喜、 下次还会来的。哈哈，谢谢店家
-								</p>
-							</div>
-
-						</li>
-						<li class="bottom-li">
+						
 					</ul>
-
+					
 				</div>
-			</div>
-		</section>
-
+					
+					
+					
+				</div>
+				
+			</section>
+		
+		
 		<!--/*--------------------------service------------------*/-->
 		<section id="service">
 			<div class="margin">
@@ -1158,30 +998,15 @@
 			</div>
 
 		</footer>
+		
+		
+		
+		
+		
+		
 	</body>
-
 </html>
 <script src="js/jquery.js"></script>
-<script type="text/javascript" src="js/subnav.js"></script>
-<script src="js/banner.js"></script>
-
-<script type="text/javascript" src="js/select.js"></script>
-<script type="text/javascript" src="js/everybodyKnows.js"></script>
+<script type="text/javascript" src="js/subnav.js" ></script>
+<script type="text/javascript" src="js/detail_show.js"></script>
 <script type="text/javascript" src="js/produce.js" ></script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

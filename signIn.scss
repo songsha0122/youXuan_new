@@ -158,7 +158,7 @@ header{
         margin:70px 0 20px 70px
     }
     form{
-        text-align: center;
+        
         margin-left:93px;
         div{
             margin-left:18%;
@@ -167,7 +167,7 @@ header{
                float:left;
                width:126px;
                font:18px/44px "";
-               
+               text-align: center;
             }
             input{
                 height:46px;
@@ -175,27 +175,54 @@ header{
                 margin-bottom:26px;
                 float:left;
                 padding:0 10px;
-                
+                text-align: center;
             } 
+            i{
+                display:block;
+                float:left;
+                width:237px;
+                height:44px;
+                font:12px/44px "";
+                color:#FF0000;
+               
+            }
+            b{
+                float:left;
+                font:16px/44px "";
+                width:100px;
+                height:44px;
+            }
             #submit{
                 margin-left: 17%;
                 height:46px;
                 width:323px;
             }
             #btn{
-                width:120px;
-                height:46px;
-                margin-left:50px;
+                width: 88px;
+                height: 46px;
+                margin-left: 30px;
+                position:absolute;
+            }
+            #passMsg{
+                font:14px/44px "";
+                width:88px;
+                
+            }
+            #yanzheng{
+                
             }
         
         }
-        
+        #checkbox{
+                margin-left: 20%;;
+        }
     }
     #bottom{
         width:900px;
         height:100px;
         margin:65px auto 137px;
         background:#2d81d4;
+        text-align: center;
     }
 }
 
